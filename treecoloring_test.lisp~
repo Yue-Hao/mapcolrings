@@ -1,0 +1,2 @@
+(load "cutset_test.lisp")
+(load "treecoloring.lisp")

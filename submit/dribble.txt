@@ -1,0 +1,130 @@
+
+* (load "colorings.lisp")
+
+"*********************** Coloring United States *************************" 
+"Vertices in the cutset:" 
+(MO CO TN ID PA SD KY MA AZ AR GA IA IN MD NV NM) 
+"One possible coloring:" 
+((AZ R) (AR B) (CO G) (GA R) (ID R) (IN R) (IA G) (KY B) (MD R) (MA R) (MO R)
+ (NV G) (NM B) (PA B) (SD R) (TN G) (AL Y) (FL B) (MS R) (LA Y) (TX G) (OK Y)
+ (KS B) (NE Y) (WY B) (MT Y) (UT Y) (ND B) (MN Y) (WI B) (IL Y) (MI G) (OH Y)
+ (WV G) (VA Y) (NC B) (DC B) (SC Y) (AK R) (CA Y) (OR B) (WA Y) (CT Y) (RI B)
+ (NY G) (NJ Y) (VT Y) (DE G) (NH B) (ME Y) (HI R)) 
+"*********************** Coloring The World Map *************************" 
+"Vertices in the cutset:" 
+("People's Republic of China" "Russia" "Brazil"
+ "Democratic Republic of the Congo" "Germany" "Austria" "France" "Iran"
+ "Serbia" "Tanzania" "Turkey" "Ukraine" "Zambia" "Algeria" "Ethiopia" "Hungary"
+ "India" "Israel" "Mali" "Niger" "Poland" "Saudi Arabia" "Sudan" "Afghanistan"
+ "Azerbaijan" "Burkina Faso" "Cameroon" "Central African Republic" "Chad"
+ "Guinea" "Iraq" "Italy" "Jordan" "Libya" "Mozambique" "South Africa"
+ "South Sudan" "Argentina" "Armenia" "Belarus" "Bolivia" "Bulgaria" "Burma"
+ "Colombia" "Republic of the Congo" "Cote d'Ivoire" "Croatia" "Egypt"
+ "Kazakhstan" "Kenya" "Laos" "Macedonia" "Montenegro" "Peru" "Romania"
+ "Senegal" "Slovakia" "Spain" "Switzerland" "Syria" "Uganda" "Uzbekistan"
+ "Albania" "Angola" "Belgium" "Benin" "Botswana" "Czech Republic" "Djibouti"
+ "Georgia" "Greece" "Guatemala" "Kosovo" "Kyrgyzstan" "Latvia" "Lithuania"
+ "Mauritania" "Namibia" "Nigeria" "Pakistan" "Rwanda" "Slovenia" "Somalia"
+ "Tajikistan" "Thailand" "Turkmenistan" "Zimbabwe"
+ "Australian Antarctic Territory" "Bosnia and Herzegovina"
+ "British Antarctic Territory" "Burundi" "Cambodia" "Chile" "Eritrea" "Finland"
+ "Gabon" "Ghana" "Guyana" "Honduras" "Indonesia" "North Korea" "Liberia"
+ "Luxembourg" "Malawi" "Malaysia" "Mexico" "Moldova" "Morocco"
+ "Nagorno-Karabakh Republic" "Norway" "Oman" "Palestinian territories"
+ "Paraguay" "Somaliland" "Suriname" "Togo" "United Arab Emirates" "Venezuela"
+ "Vietnam" "Western Sahara" "Akrotiri and Dhekelia" "Andorra"
+ "Antartica Chilena Province" "Argentine Antarctica" "Bangladesh" "Belize"
+ "Bhutan" "Costa Rica" "Cyprus" "Northern Cyprus" "Ecuador" "El Salvador"
+ "Equatorial Guinea" "Estonia" "French Guiana" "Gaza Strip" "Guinea-Bissau"
+ "Kuwait" "Lebanon" "Liechtenstein" "Mongolia" "Nepal" "Netherlands"
+ "Nicaragua" "Panama" "Qatar" "Queen Maud Land" "Sierra Leone" "Swaziland"
+ "Sweden" "Transnistria" "Tunisia" "United States" "Uruguay" "West Bank"
+ "Yemen") 
+"One possible coloring:" 
+(("Afghanistan" R) ("Akrotiri and Dhekelia" R) ("Albania" R) ("Algeria" R)
+ ("Andorra" R) ("Angola" R) ("Antartica Chilena Province" R)
+ ("Argentine Antarctica" R) ("Argentina" R) ("Armenia" R)
+ ("Australian Antarctic Territory" R) ("Austria" R) ("Azerbaijan" R)
+ ("Bangladesh" R) ("Belarus" R) ("Belgium" R) ("Belize" R) ("Benin" R)
+ ("Bhutan" R) ("Bolivia" R) ("Bosnia and Herzegovina" R) ("Botswana" R)
+ ("Brazil" R) ("British Antarctic Territory" R) ("Bulgaria" R)
+ ("Burkina Faso" R) ("Burma" R) ("Burundi" R) ("Cambodia" R) ("Cameroon" R)
+ ("Central African Republic" R) ("Chad" R) ("Chile" R)
+ ("People's Republic of China" R) ("Colombia" R)
+ ("Democratic Republic of the Congo" R) ("Republic of the Congo" R)
+ ("Costa Rica" R) ("Cote d'Ivoire" R) ("Croatia" R) ("Cyprus" R)
+ ("Northern Cyprus" R) ("Czech Republic" R) ("Djibouti" R) ("Ecuador" R)
+ ("Egypt" R) ("El Salvador" R) ("Equatorial Guinea" R) ("Eritrea" R)
+ ("Estonia" R) ("Ethiopia" R) ("Finland" R) ("France" R) ("French Guiana" R)
+ ("Gabon" R) ("Gaza Strip" R) ("Georgia" R) ("Germany" R) ("Ghana" R)
+ ("Greece" R) ("Guatemala" R) ("Guinea" R) ("Guinea-Bissau" R) ("Guyana" R)
+ ("Honduras" R) ("Hungary" R) ("India" R) ("Indonesia" R) ("Iran" R) ("Iraq" R)
+ ("Israel" R) ("Italy" R) ("Jordan" R) ("Kazakhstan" R) ("Kenya" R)
+ ("North Korea" R) ("Kosovo" R) ("Kuwait" R) ("Kyrgyzstan" R) ("Laos" R)
+ ("Latvia" R) ("Lebanon" R) ("Liberia" R) ("Libya" R) ("Liechtenstein" R)
+ ("Lithuania" R) ("Luxembourg" R) ("Macedonia" R) ("Malawi" R) ("Malaysia" R)
+ ("Mali" R) ("Mauritania" R) ("Mexico" R) ("Moldova" R) ("Mongolia" R)
+ ("Montenegro" R) ("Morocco" R) ("Mozambique" R)
+ ("Nagorno-Karabakh Republic" R) ("Namibia" R) ("Nepal" R) ("Netherlands" R)
+ ("Nicaragua" R) ("Niger" R) ("Nigeria" R) ("Norway" R) ("Oman" R)
+ ("Pakistan" R) ("Palestinian territories" R) ("Panama" R) ("Paraguay" R)
+ ("Peru" R) ("Poland" R) ("Qatar" R) ("Queen Maud Land" R) ("Romania" R)
+ ("Russia" R) ("Rwanda" R) ("Saudi Arabia" R) ("Senegal" R) ("Serbia" R)
+ ("Sierra Leone" R) ("Slovakia" R) ("Slovenia" R) ("Somalia" R)
+ ("Somaliland" R) ("South Africa" R) ("South Sudan" R) ("Spain" R) ("Sudan" R)
+ ("Suriname" R) ("Swaziland" R) ("Sweden" R) ("Switzerland" R) ("Syria" R)
+ ("Tajikistan" R) ("Tanzania" R) ("Thailand" R) ("Togo" R) ("Transnistria" R)
+ ("Tunisia" R) ("Turkey" R) ("Turkmenistan" R) ("Uganda" R) ("Ukraine" R)
+ ("United Arab Emirates" R) ("United States" R) ("Uruguay" R) ("Uzbekistan" R)
+ ("Venezuela" R) ("Vietnam" R) ("West Bank" R) ("Western Sahara" R) ("Yemen" R)
+ ("Zambia" R) ("Zimbabwe" R) ("Adelie Land" Y)
+ ("Australian Antarctic Territory" R) ("American Samoa" R)
+ ("Amsterdam Island and Ile Saint-Paul" R) ("Anguilla" R)
+ ("Antigua and Barbuda" R) ("Aruba" R) ("Ashmore and Cartier Islands" R)
+ ("Australia" R) ("Azores" R) ("Bahamas" R) ("Bahrain" R)
+ ("Baker Island and Howland Island" R) ("Barbados" R)
+ ("Bassas da India, Europa Island, and Juan de Nova Island" R) ("Bermuda" R)
+ ("Bouvet Island" R) ("British Indian Ocean Territory" R)
+ ("British Virgin Islands" R) ("Brunei" Y) ("Malaysia" R) ("Canada" Y)
+ ("United States" R) ("Cape Verde" R) ("Cayman Islands" R)
+ ("Christmas Island" R) ("Clipperton Island" R) ("Cocos  Islands" R)
+ ("Comoros" R) ("Cook Islands" R) ("Crozet Islands" R) ("Cuba" R) ("Curacao" R)
+ ("Denmark" Y) ("Germany" R) ("Dominica" R) ("Dominican Republic" Y)
+ ("Haiti" R) ("East Timor" Y) ("Indonesia" R) ("Falkland Islands" R)
+ ("Faroe Islands" R) ("Fiji" R) ("French Polynesia" R)
+ ("French Southern and Antarctic Lands" R) ("The Gambia" Y) ("Senegal" R)
+ ("Gibraltar" Y) ("Spain" R) ("Glorioso Islands" R) ("Greenland" R)
+ ("Grenada" R) ("French Southern and Antarctic Lands" R) ("Guadeloupe" R)
+ ("Guam" R) ("Guernsey" R) ("Haiti" Y) ("Dominican Republic" R)
+ ("Heard Island and McDonald Islands" R) ("Hong Kong" Y)
+ ("People's Republic of China" R) ("Howland Island and Baker Island" R)
+ ("Iceland" R) ("Amsterdam Island and Ile Saint-Paul" R) ("Ireland" Y)
+ ("United Kingdom" R) ("Isle of Man" R) ("Jamaica" R) ("Japan" R)
+ ("Jarvis Island" R) ("Jersey" R) ("Johnston Atoll" R)
+ ("Bassas da India, Europa Island, and Juan de Nova Island" R)
+ ("Kerguelen Islands" R) ("Kingman Reef and Palmyra Atoll" R) ("Kiribati" R)
+ ("South Korea" Y) ("North Korea" R) ("Lesotho" Y) ("South Africa" R)
+ ("Macau" Y) ("People's Republic of China" R) ("Macquarie Island" R)
+ ("Madagascar" R) ("Madeira" R) ("Maldives" R) ("Malta" R)
+ ("Marshall Islands" R) ("Martinique" R) ("Mauritius" R) ("Mayotte" R)
+ ("Federated States of Micronesia" R) ("Midway Atoll" R) ("Monaco" Y)
+ ("France" R) ("Montserrat" R) ("Nauru" R) ("Navassa Island" R)
+ ("New Caledonia" R) ("New Zealand" R) ("Niue" R) ("Norfolk Island" R)
+ ("Northern Mariana Islands" R) ("Palau" R)
+ ("Kingman Reef and Palmyra Atoll" R) ("Papua New Guinea" Y) ("Indonesia" R)
+ ("Peter I Island" R) ("Philippines" R) ("Pitcairn Islands" R) ("Portugal" Y)
+ ("Spain" R) ("Puerto Rico" R) ("Reunion" R) ("Ross Dependency" Y)
+ ("Australian Antarctic Territory" R) ("Saint Barthelemy" R)
+ ("Saint Helena, Ascension and Tristan da Cunha" R) ("Saint Kitts and Nevis" R)
+ ("Saint Lucia" R) ("Saint Martin" Y) ("Sint Maarten" R)
+ ("Saint Pierre and Miquelon" R) ("Saint Vincent and the Grenadines" R)
+ ("Samoa" R) ("San Marino" Y) ("Italy" R) ("Sao Tome and Principe" R)
+ ("Seychelles" R) ("Singapore" R) ("Sint Maarten" Y) ("Saint Martin" R)
+ ("Solomon Islands" R) ("South Georgia and the South Sandwich Islands" R)
+ ("Sri Lanka" Y) ("India" R) ("Svalbard" R) ("Taiwan" R) ("Tokelau" R)
+ ("Tonga" R) ("Tromelin Island" R) ("Trinidad and Tobago" R)
+ ("Turks and Caicos Islands" R) ("Tuvalu" R) ("United Kingdom" Y) ("Ireland" R)
+ ("United States Virgin Islands" R) ("Vanuatu" R) ("Vatican City" Y)
+ ("Italy" R) ("Wake Island" R) ("Wallis and Futuna" R)) 
+T
+* (dribble)
